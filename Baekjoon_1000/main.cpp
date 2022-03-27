@@ -10,7 +10,8 @@ int main() {
     int a, b;
     cin >> a >> b;
 
-    cout << printSum(a, b) << endl;
+    int result = printSum(a, b);
+    cout << result << endl;
 
     return 0;
 }
